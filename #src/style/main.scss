@@ -1,0 +1,27 @@
+@import "_variables";
+@import "_dataTypes";
+
+h1 {
+  color: $colorh1;
+  // background-color: violet;
+}
+
+h2 {
+  $colorh2: grey;
+  $bgcolorh22: blue;
+  color: $colorh2;
+  background-color: $bgcolorh22;
+}
+
+h3 {
+  letter-spacing: 3px;
+  // color: $colorh2; //qo'llanilmaydi, xatolik chiqadi
+  // background-color: $colorh22; //qo'llanilmaydi, xatolik chiqadi
+}
+
+ul {
+  li {
+    font-style: $ulFontStyle;
+    list-style-position: inside;
+  }
+}
